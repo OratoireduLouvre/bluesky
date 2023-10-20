@@ -1,0 +1,31 @@
+{
+    "displayName": "Protestantisme 🕊️",
+    "blocks": [
+        {
+            "id": "aaaey7lx7l4ta",
+            "type": "input",
+            "inputType": "firehose",
+            "firehoseSeconds": 604800
+        },
+        {
+            "id": "aaaey7lx7icrq",
+            "type": "remove",
+            "subject": "language",
+            "value": null,
+            "language": "fr"
+        },
+        {
+            "id": "aaaey7lx7l22y",
+            "type": "regex",
+            "value": "protestants?|protestantisme|Jean Calvin|calvinismes?|calvinistes?|huguenots?|parpaillots?|pasteure|pasteurs|epudf|eeudf"
+            "caseSensitive": false,
+            "target": "text|alt_text|link"
+        },
+        {
+            "id": "aaaey7lx7k2so",
+            "type": "sort",
+            "sortType": "created_at"
+        }
+    ],
+    "license": "EUPL-1.2"
+}
